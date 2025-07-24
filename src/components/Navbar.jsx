@@ -30,9 +30,9 @@ export default function Navbar() {
                   : "text-gray-700 hover:bg-gray-100"
               }`}
             >
-              {/* אייקון תמיד מוצג */}
+              {/* Icon is always displayed */}
               <span className="text-xl">{link.icon}</span>
-              {/* טקסט מוסתר במסכים קטנים */}
+              {/* Text is hidden on small screens */}
               <span className="hidden sm:block text-xs">{link.name}</span>
             </Link>
           </li>

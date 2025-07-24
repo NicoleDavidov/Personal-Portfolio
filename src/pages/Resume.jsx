@@ -4,7 +4,7 @@ export default function Resume() {
   return (
     <div className="bg-gray-50 min-h-screen py-12 px-6">
       <div className="max-w-4xl mx-auto bg-white shadow-xl rounded-xl p-8">
-        {/* כפתור להורדה */}
+        {/* Download button */}
         <div className="text-center mb-8">
           <motion.a
             href="/Nicole-Davidov-CV.pdf"
@@ -15,7 +15,7 @@ export default function Resume() {
           </motion.a>
         </div>
 
-        {/* שם ותפקיד */}
+        {/* Name and title */}
         <h1 className="text-4xl font-extrabold text-gray-900 text-center mb-2">
           Nicole Davidov
         </h1>
@@ -23,7 +23,7 @@ export default function Resume() {
           Computer Science Student | Full-Stack & Software Development
         </p>
 
-        {/* פרטי קשר */}
+        {/* Contact details */}
         <div className="flex flex-wrap justify-center gap-4 text-gray-700 mb-10 text-md">
           <a href="mailto:nicoledavidov.dev@gmail.com" className="hover:text-blue-600">
             nicoledavidov.dev@gmail.com
@@ -117,7 +117,6 @@ export default function Resume() {
             <strong>Technical Support Representative – Rimon Internet (2025 – Present):</strong>  
             Provide tier-1 technical support for network and internet issues. Troubleshoot router and software setups via phone and
             remote tools while ensuring top-tier customer service.
-
           </p>
         </section>
 
@@ -141,7 +140,6 @@ export default function Resume() {
             <strong>Observer on the Northern Border (2019-2021)</strong><br/>
             Operated advanced surveillance systems (radar, video, command software). Managed real-time threat detection and
             trained new observers during high-pressure scenarios.
-          
           </p>
         </section>
 

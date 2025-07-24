@@ -1,12 +1,13 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { Link } from "react-router-dom"; 
 
 export default function Home() {
   return (
     <div className="bg-gradient-to-br from-blue-50 via-white to-yellow-50 min-h-screen flex flex-col items-center px-6 py-10">
       
-      {/* כותרת ראשית */}
+      {/* Main heading */}
       <motion.h1
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
@@ -16,7 +17,7 @@ export default function Home() {
         Hi, I’m <span className="text-blue-600">Nicole</span> 👋
       </motion.h1>
 
-      {/* פסקת פתיחה */}
+      {/* Intro paragraph */}
       <motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -28,7 +29,7 @@ export default function Home() {
         <span className="font-semibold"> Seeking a full-stack role to grow and contribute to impactful projects.</span>
       </motion.p>
 
-      {/* אייקונים ליצירת קשר */}
+      {/* Contact icons */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -67,7 +68,7 @@ export default function Home() {
         </a>
       </motion.div>
 
-      {/* כפתור להורדת קובץ CV */}
+      {/* Button to download CV */}
       <motion.a
         href="/Nicole-Davidov-CV.pdf"
         download
@@ -76,7 +77,7 @@ export default function Home() {
         Download CV
       </motion.a>
 
-      {/* סקשן פרויקטים */}
+      {/* Projects section */}
       <motion.section
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -157,7 +158,7 @@ export default function Home() {
         </div>
       </motion.section>
 
-      {/* סקשן Career Path */}
+      {/* Career Path section */}
       <motion.section
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -167,7 +168,7 @@ export default function Home() {
         <h2 className="text-4xl font-bold text-center mb-8 text-gray-800">Career Path</h2>
         <div className="space-y-6">
           
-          {/* ניסיון מקצועי */}
+          {/* Professional experience */}
           <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
             <h3 className="text-xl font-semibold text-gray-900">
               Technical Support Representative – Rimon Internet (2025 – Present)
@@ -178,7 +179,7 @@ export default function Home() {
             </p>
           </div>
 
-          {/* השכלה */}
+          {/* Education */}
           <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
             <h3 className="text-xl font-semibold text-gray-900">
               B.Sc. Computer Science (2023 – 2025)
@@ -188,7 +189,7 @@ export default function Home() {
             </p>
           </div>
 
-          {/* ניסיון צבאי */}
+          {/* Military experience */}
           <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
             <h3 className="text-xl font-semibold text-gray-900">
               Observer on the Northern Border (2019 – 2021)

@@ -1,19 +1,19 @@
 export default function About() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-yellow-50 py-12 px-6 flex flex-col items-center">
-      {/* כותרת ראשית */}
+      {/* Main heading */}
       <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
         About <span className="text-blue-600">Me</span>
       </h1>
 
-      {/* טקסט פתיחה */}
+      {/* Intro text */}
       <p className="max-w-4xl text-lg md:text-xl text-gray-700 text-center leading-relaxed mb-6">
         Hi, I'm <span className="font-semibold">Nicole</span>, a final-year Computer Science student at HIT with a strong passion for software development and problem-solving. 
         I specialize in <span className="text-blue-600 font-semibold">Full-Stack Development</span>, working with React, Node.js, Express, and MongoDB, 
         and have experience in Java projects involving client-server architecture, multithreading, and algorithm design.
       </p>
 
-      {/* תיאור נוסף */}
+      {/* Additional description */}
       <p className="max-w-4xl text-lg md:text-xl text-gray-700 text-center leading-relaxed mb-6">
         I enjoy working on challenging projects, learning new tools, and building innovative, user-friendly applications. 
         My strong foundation in OOP, data structures, and algorithms, along with hands-on experience in both front-end and back-end technologies, 
@@ -22,7 +22,7 @@ export default function About() {
         I'm eager to bring my technical expertise and enthusiasm for learning to impactful projects in dynamic environments.
       </p>
 
-      {/* כרטיסיות מידע */}
+      {/* Info cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl w-full mt-10">
         {/* Skills */}
         <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition">
