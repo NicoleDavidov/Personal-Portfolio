@@ -4,7 +4,7 @@ export default function Resume() {
   return (
     <div className="bg-gray-50 min-h-screen py-12 px-6">
       <div className="max-w-4xl mx-auto bg-white shadow-xl rounded-xl p-8">
-        {/* Download button */}
+        {/*Download button*/}
         <div className="text-center mb-8">
           <motion.a
             href="/Nicole-Davidov-CV.pdf"
