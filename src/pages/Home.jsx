@@ -148,12 +148,12 @@ export default function Home() {
           </div>
         </div>
         <div className="text-center mt-10">
-          <a
-            href="/projects"
+          <Link
+            to="/projects"
             className="text-blue-600 hover:text-blue-800 font-semibold underline"
           >
             View More Projects →
-          </a>
+          </Link>
         </div>
       </motion.section>
 
