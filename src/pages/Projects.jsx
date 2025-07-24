@@ -8,7 +8,10 @@ export default function Projects() {
         "Advanced Java-based client-server application for analyzing financial sequences. Includes Kadane and Prefix Sum algorithms, JavaFX UI, and multi-threaded TCP server with JSON communication.",
       tech: ["Java", "JavaFX", "TCP Sockets", "Design Patterns", "JUnit"],
       links: [
-        { label: "GitHub Repo", url: "https://github.com/NicoleDavidov/Profit-Analyzer-Advanced-Java-Project" },
+        {
+          label: "GitHub Repo",
+          url: "https://github.com/NicoleDavidov/Profit-Analyzer-Advanced-Java-Project",
+        },
       ],
     },
     {
@@ -29,7 +32,10 @@ export default function Projects() {
         "AI-powered chatbot concept developed for an AWS hackathon. Provides academic support with study tips and lecture summaries using AWS tools like S3, Bedrock, and Lex.",
       tech: ["React", "Tailwind", "AWS"],
       links: [
-        { label: "GitHub Repo", url: "https://github.com/NicoleDavidov/study-buddy-hackathon" },
+        {
+          label: "GitHub Repo",
+          url: "https://github.com/NicoleDavidov/study-buddy-hackathon",
+        },
       ],
     },
     {
@@ -38,7 +44,10 @@ export default function Projects() {
         "Deep Learning project classifying lung cancer images as Benign, Malignant, or Normal. Implemented CNN and transfer learning achieving 99%-100% accuracy, with preprocessing and hyperparameter tuning.",
       tech: ["Python", "TensorFlow", "Keras", "OpenCV"],
       links: [
-        { label: "GitHub Repo", url: "https://github.com/NicoleDavidov/DL_finalProject-Lung_Cancer_Project_DL" },
+        {
+          label: "GitHub Repo",
+          url: "https://github.com/NicoleDavidov/DL_finalProject-Lung_Cancer_Project_DL",
+        },
       ],
     },
     {
@@ -47,7 +56,22 @@ export default function Projects() {
         "Machine Learning project using algorithms like SVM and Random Forest to classify breast cancer tumors. Includes feature engineering, model tuning, and evaluation metrics (F1-score, accuracy).",
       tech: ["Python", "Scikit-learn", "Pandas", "NumPy"],
       links: [
-        { label: "GitHub Repo", url: "https://github.com/NicoleDavidov/Machine-Learning-Breast-Cancer" },
+        {
+          label: "GitHub Repo",
+          url: "https://github.com/NicoleDavidov/Machine-Learning-Breast-Cancer",
+        },
+      ],
+    },
+    {
+      name: "🌐 Personal Portfolio",
+      description:
+        "Responsive personal portfolio website built with React and Vite to showcase projects, resume, and skills. Includes modern UI with TailwindCSS, animations with Framer Motion, and routing with React Router.",
+      tech: ["React", "Vite", "TailwindCSS", "Framer Motion"],
+      links: [
+        {
+          label: "GitHub Repo",
+          url: "https://github.com/NicoleDavidov/Personal-Portfolio",
+        },
       ],
     },
   ];
