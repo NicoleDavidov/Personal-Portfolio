@@ -13,8 +13,11 @@ export default function Navbar() {
 
   return (
     <nav
-      className="bg-white shadow-md fixed top-4 left-1/2 transform -translate-x-1/2
-      w-[550px] md:w-[400px] sm:w-[300px] rounded-xl px-3 py-2 flex justify-center items-center z-50"
+      className="
+        bg-white shadow-md fixed top-4 left-1/2 transform -translate-x-1/2
+        w-full max-w-[550px] rounded-xl px-3 py-2 flex justify-center items-center z-50
+        mx-auto
+      "
     >
       <ul className="flex justify-between w-full">
         {links.map((link) => (
