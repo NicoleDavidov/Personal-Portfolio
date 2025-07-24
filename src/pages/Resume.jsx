@@ -9,7 +9,7 @@ export default function Resume() {
           <motion.a
             href="/Nicole-Davidov-CV.pdf"
             download
-            className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold text-lg shadow-lg hover:bg-blue-700 transition"
+            className="bg-blue-600 text-white px-6 py-2 rounded-lg font-bold text-base sm:px-8 sm:py-3 sm:text-lg shadow-lg hover:bg-blue-700 transition"
           >
             Download Resume
           </motion.a>
