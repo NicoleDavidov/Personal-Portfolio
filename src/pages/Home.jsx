@@ -114,14 +114,14 @@ export default function Home() {
             <p className="text-sm text-gray-500 mb-4">Tech: React, Node.js, MongoDB</p>
             <div className="flex gap-4">
               <a
-                href="https://github.com/NicoleDavidov/CostManagerClient"
+                href="https://github.com/NicoleDavidov/CostManagerFrontEnd"
                 target="_blank"
                 className="text-blue-500 hover:underline"
               >
                 Client Repo
               </a>
               <a
-                href="https://github.com/NicoleDavidov/CostManagerServer"
+                href="https://github.com/NicoleDavidov/CostManagerServerSide"
                 target="_blank"
                 className="text-blue-500 hover:underline"
               >

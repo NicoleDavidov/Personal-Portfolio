@@ -17,9 +17,9 @@ export default function Projects() {
         "Personal finance management system with expense tracking, monthly reports, and charts. Built with React frontend and Node.js + MongoDB backend (developed separately for modularity).",
       tech: ["React", "Node.js", "Express", "MongoDB"],
       links: [
-        { label: "Client Repo", url: "https://github.com/NicoleDavidov/CostManagerClient" },
+        { label: "Client Repo", url: "https://github.com/NicoleDavidov/CostManagerFrontEnd" },
         { label: "Server", url: "https://costmanagerserversideproject.onrender.com/" },
-        { label: "Server Repo", url: "https://github.com/NicoleDavidov/CostManagerServer" },
+        { label: "Server Repo", url: "https://github.com/NicoleDavidov/CostManagerServerSide" },
         { label: "Website", url: "https://costmanager-y239.onrender.com/" },
       ],
     },
