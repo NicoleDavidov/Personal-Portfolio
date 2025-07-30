@@ -38,7 +38,7 @@ export default function Projects() {
         "Deep Learning project classifying lung cancer images as Benign, Malignant, or Normal. Implemented CNN and transfer learning achieving 99%-100% accuracy, with preprocessing and hyperparameter tuning.",
       tech: ["Python", "TensorFlow", "Keras", "OpenCV"],
       links: [
-        { label: "GitHub Repo", url: "https://github.com/NicoleDavidov/DL_finalProject-Lung_Cancer_Project_DL" },
+        { label: "GitHub Repo", url: "https://github.com/NicoleDavidov/DL_finalProject" },
       ],
     },
     {
@@ -47,7 +47,7 @@ export default function Projects() {
         "Machine Learning project using algorithms like SVM and Random Forest to classify breast cancer tumors. Includes feature engineering, model tuning, and evaluation metrics (F1-score, accuracy).",
       tech: ["Python", "Scikit-learn", "Pandas", "NumPy"],
       links: [
-        { label: "GitHub Repo", url: "https://github.com/NicoleDavidov/Machine-Learning-Breast-Cancer" },
+        { label: "GitHub Repo", url: "https://github.com/NicoleDavidov/BreastCancerML" },
       ],
     },
     {
